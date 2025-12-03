@@ -14,7 +14,7 @@ const server = http.createServer((req, res) => {
   if (req.url === "/") {
     res.statusCode = 200;
     res.setHeader("Content-Type", "text/plain");
-    res.end("Welcome to the Home Page!\n");
+    res.end("Jenkins Pipeline Test Successful! Home Page Updated.\n");
   
   } else if (req.url === "/about") {
     res.statusCode = 200;
